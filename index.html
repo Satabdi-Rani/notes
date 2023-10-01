@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27faea61eb.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="/images/note-sticky-solid.svg" >
+    <title> Notes </title>
+</head>
+<body class="bg-gradient-to-r from-cyan-500 to-fuchsia-500">
+    <section class="w-[80%] mx-auto pt-28">
+        <div class="bg-slate-200 rounded-t py-2">
+             <h4 class="font-bold text-lg text-center ">Online Notepad</h4>
+        </div>
+
+        <div class="grid grid-cols-3 justify-evenly pl-12 bg-white border-b py-2">
+            <ul class="flex flex-row gap-4">
+                <li id="text-bold" class="hover:bg-slate-50"><i class="fa-solid fa-bold"></i></li>
+                <li id="text-italic"><i class="fa-solid fa-italic"></i></li>
+                <li id="text-underline"><i class="fa-solid fa-underline"></i></li>
+            </ul>
+
+            <ul class="flex flex-row gap-4">
+                <li id="align-left"><i class="fa-solid fa-align-left"></i></li>
+                <li id="align-center"><i class="fa-solid fa-align-center"></i></li>
+                <li id="align-right"><i class="fa-solid fa-align-right"></i></li>
+                <li id="align-justify"><i class="fa-solid fa-align-justify"></i></li>
+            </ul>
+
+            <ul class="flex flex-row gap-4">
+                <li>17</li>
+                <li><i class="fa-solid fa-font"></i></li>
+                <li><i class="fa-solid fa-eye-dropper"></i></li>
+            </ul>
+        </div>
+
+        <div>
+            <textarea name="" id="text-area" cols="135.25" rows="20"></textarea>
+        </div>
+    </section>
+
+    <script src="js/style.js"></script>
+</body>
+</html>
